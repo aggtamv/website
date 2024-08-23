@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo">
+            <div class="logo-image">
+                <img src="img/logo_noBG.png" alt="Logo" />
+              </div>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="section">
+        <div class="section_container" id="home_container">
+            <h1 class="title" id="home_text">
+                I'm <span>Angelos<br /></span> 
+                <span class="color_double">a Bioinformatician / Data Analyst </span>
+            </h1>
+            <p class="description">Currently working as a Bioinformatician researcher in Aristotle University of Thessaloniki</p>
+        </div>
+    </section>
+    <section id="about" class="section">
+      <div class="section_container" id="about_container">
+        <div class="content">
+          <p class="subtitle">About Me</p>
+          
+          <p class="description">
+            I hold a Master's degree in Digital Media and Computational Intelligence, where I specialized in the
+            intersection of technology and data science. <br>My Master's thesis focused on the classification of DNA 
+            sample sequence data, where I leveraged advanced computational techniques to unravel insights from
+            complex biological datasets.<br>
+
+            Beyond the realm of biological data, I am deeply enthusiastic  about sport analytics. I enjoy exploring
+            and intepreting sports-related data, discovering trends, and providing insights that can enhance perfomance
+            strategy. My analytical skills allow me to turn raw data into actionable information, whether it's in the context 
+            of sports or other fields.<br>
+
+            In addition to my data analysis expertise, I am also a skilled web developer. I have hands-on experience with 
+            backend development using Flask and SQLAlchemy, while I have experience in front-end using HTML, Javascript and CSS.
+            This combination of skills enables me to build full-stack web applications that are both functional and user-friendly.
+
+            I am passionate about combining my technical skills with creative problem-solving to bring data to life and develop impactful digital solutions.
+            </p>
+            <p class="subtitle">Current tools and frameworks:</p>
+            <div class="tools-wrapper">
+                <img src="img/python.png" alt="python-image" class="tools-image">
+                <img src="img/pandas.png" alt="pandas-image" class="tools-image" id="pandas-img">
+                <img src="img/TensorFlow.png" alt="tensorflow-image" class="tools-image" >
+                <img src="img/PyTorch.png" alt="pytorch-image" class="tools-image">
+                <img src="img/mysql.png" alt="sql-image" class="tools-image">
+                <img src="img/js.png" alt="javascript-image" class="tools-image" id="js-image">
+                <img src="img/html.png" alt="html-image" class="tools-image" id="html-image">
+                <img src="img/css.png" alt="css-image" class="tools-image" id="css-image">
+            </div>
+            <div class="action__btns">
+                <a href="#contact"><button class="contact_me">Contact</button></a>
+                <a href="#projects"><button class="portfolio">Projects</button></a>
+            </div>
+        </div>
+        <div class="image">
+          <img src="img/photo.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section">
+        <div class="section_container" id="projects-container">
+            <h2 class="title">Projects</h2>
+            <div class="projects-container">
+              <div class="data-analysis-projects">
+                <p class="subtitle">Data Analysis and Machine-Deep Learning Projects</p>
+                <div class="data-projects-container">
+                  <div class="data-project">
+                    <div class="image-container">
+                      <img src="img/Arcane_logo.jpg" alt="arcane_logo-image" class="project-image" id="arcane-logo">
+                      <div class="hover-image" id="arcane-hover">
+                        <p class="subtitle">Image Classifier (CNN) with Tensorflow</p>
+                        <img src="img/TensorFlow.png" alt="hover-image" id="arcane-hover-image">
+                        <a href="https://github.com/aggtamv/Image-Classifier-Tensorflow-" target="_blank">
+                          <button class="hover-button">Code</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="data-project">
+                    <div class="image-container">
+                      <img src="img/nba.png" alt="nba_logo-image" class="project-image" id="nba-logo">
+                      <div class="hover-image" id="arcane-hover">
+                        <p class="subtitle">Player Perfomance Prediction (RNN) with Tensorflow</p>
+                        <img src="img/TensorFlow.png" alt="hover-image" id="nba-hover-image">
+                        <a href="https://github.com/aggtamv/NBA-Player-Perfomance-Prediction" target="_blank">
+                          <button class="hover-button">Code</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="data-project">
+                    <div class="image-container">
+                      <img src="img/nba.png" alt="nba_logo-image" class="project-image" id="nba-logo">
+                      <div class="hover-image" id="arcane-hover">
+                        <p class="subtitle">NBA Winner Prediction with SVMs</p>
+                        <img src="img/scikit-learn.png" alt="hover-image" id="svm-hover-image">
+                        <a href="https://github.com/aggtamv/NBA-winner-prediction" target="_blank">
+                          <button class="hover-button">Code</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="web-dev-projects">
+                <p class="subtitle">Web Development Projects</p>
+                <div class="data-projects-container">
+                  <div class="data-project">
+                    <div class="image-container">
+                      <img src="img/lottery-game.png" alt="lottery-image" class="project-image" id="lottery-logo">
+                      <div class="hover-image" id="lottery-hover">
+                        <p class="subtitle">Lottery Game Website made with Flask</p>
+                        <img src="img/python.png" alt="hover-image" id="lottery-hover-image">
+                        <div class="web-page-buttons">
+                          <a href="https://particular-beilul-thereisnone-d3558ebc.koyeb.app/" target="_blank">
+                            <button class="hover-button">App</button>
+                          </a>
+                          <a href="https://github.com/aggtamv/Lottery_Game" target="_blank">
+                            <button class="hover-button">Code</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="section_container" id="contact-container">
+          <h2 class="title">Contact Me</h2>
+          <p class="subtitle" id="socials-text">Get in touch or follow me on my social media platforms.</p>
+          <div class="contact-container">
+            <div class="contact-items-container">
+              <div class="contact-item" id="email-contact">
+                <div class="circle">
+                  <box-icon name='envelope'></box-icon>
+                </div>
+                <h3>Email</h3>
+                <p>aggtamv@gmail.com</p>
+              </div>
+              <div class="contact-item" id="phone-contact">
+                <div class="circle">
+                  <box-icon name='phone'></box-icon>
+                </div>
+                  <h3>Phone</h3>
+                  <p>+30 6977909147</p>
+              </div>
+            </div>
+              <div class="socials">
+                <div class="contact-item">
+                  
+                  <div class="socials-container">
+                      <a class="socials-grid" href="https://www.researchgate.net/profile/Aggelos-Tamvakis" target="_blank" id="reasearchgate-container">
+                        <img src="img/researchgate.png" alt="researchgate" id="reasearchgate-image">
+                        <p class="social-title">ResearchGate</p>
+                      </a>
+                      <a class="socials-grid" href="https://www.linkedin.com/in/aggelos-tamvakis-1a664921b/" target="_blank" id="linkedin-container">
+                        <img src="img/linkedin.png" alt="LinkedIn" id="linkedin-image">
+                        <p class="social-title">LinkedIn</p>
+                      </a>
+                      <a class="socials-grid" href="https://github.com/aggtamv" target="_blank" id="github-container">
+                        <img src="img/github.png" alt="GitHub" id="github-image">
+                        <p class="social-title">Github</p>
+                      </a>
+                  </div>
+              </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
